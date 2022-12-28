@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+header {
+    background-color: red;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+div {
+    width: 00px;
+    background-color: aliceblue;
+}
+
+nav {
+    width: 300px;
+    background-color: grey;
+}
+
+
+/* to set the direct parent display to flex makes block level elements to act as inline elements. 
+All flex properties are applied to parents */
+
+
+/* some flex properties are; display, justify-content(with other options in it), gap*/
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 8px;
+}

@@ -1,0 +1,55 @@
+/* text properties */
+
+h1 {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    color: purple
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    font-family: 'Kenia', cursive;
+}
+
+.b {
+    background-color: aquamarine;
+    border: none;
+    margin: 0px 5px;
+    color: rgb(82, 22, 32);
+}
+
+#container div {
+    background-color: rgba(222, 130, 22, 0.4);
+    padding: 15px;
+    border: 1px dotted rgb(42, 30, 54);
+}
+
+#container div:hover {
+    box-shadow: 5px 5px 50px rgb(71, 22, 22);
+}
+
+
+/* border-width: 1px; 
+     border-style: dotted;
+    border-color: blue;*/
+
+
+/* you could also pad like this
+padding/margin: 10px 20px. This will be applied to top and bottom (vertical), left and right (horizontal)
+or
+padding/margin: 10px 20px 30px 15px. this will be interpreted "top, right, bottom, left"
+3 values goes "top, horizontal, bottom"
+*/
+
+#container {
+    background-image: url(assets/images/ocean.jpg);
+    padding: 50px;
+}
